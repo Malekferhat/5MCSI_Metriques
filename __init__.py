@@ -36,7 +36,7 @@ def histogramme():
     return render_template("histogramme.html")
 
 @app.route("/commits/")
-def MaPremiereAPI():
+def moncommits():
     return render_template('commits.html')
 
 if __name__ == "__main__":
